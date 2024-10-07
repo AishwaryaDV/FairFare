@@ -1,0 +1,53 @@
+.fairFareHomePageAnimation{
+    padding: 7rem 0.5rem 0.5rem 0;
+
+}
+.logoSection{
+    font-weight: 700;
+    float:left;
+    padding: 1rem 0 0 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.taglineSection{
+    padding: 0 1rem 0 1rem;
+    text-align:center;
+    font-weight:700;
+    line-height: 1.5rem;
+}
+.logInBtn{
+    height:3rem;
+    width:auto;
+    font-weight:700;
+    font-size: 1rem;
+    padding:0 2rem 0 2rem;
+    background-color: #1e73e9;
+    color:white;
+    border:none;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.logInBtn:hover{
+    background-color: black;
+}
+.registerBtn{
+    height:3rem;
+    width:auto;
+    font-weight:700;
+    font-size: 1rem;
+    padding:0 2rem 0 2rem;
+    background-color: #1e73e9;
+    color:white;
+    border:none;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.registerBtn:hover{
+    background-color: black;
+}
+.buttonsSection{
+    display: flex;
+    flex-direction: row;
+justify-content: space-evenly;
+margin-top: 3rem;
+}
