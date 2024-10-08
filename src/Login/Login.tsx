@@ -19,9 +19,9 @@ const Login: React.FC<LoginProps> = () => {
             <input placeholder='Email ID' type="email" value={email} required className='loginEmail'/>
             <input placeholder='Password' type="password" value={password} required className='loginPassword'/>
             {/* <span>Forgot?</span> */}
-            <button className='logInBtn'>Log In</button>
+            <button className='logInBtn'>Login</button>
         </form>
-        <div className="loginOtherwiseSection">Or, Login with...</div>
+        <div className="loginOtherwiseSection">Or, login with...</div>
         <div className="loginOptionsBtnsSection">
                 <div className="loginOption"><FaGoogle size={30}/></div>
                 <div className="loginOption"><FaYahoo size={30}/></div>
