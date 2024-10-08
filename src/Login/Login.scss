@@ -1,0 +1,90 @@
+.autheticationAnimation{
+    padding: 5rem 3rem 1rem 3rem;
+    height:282px;
+    width: 278px;
+
+}
+.logInHeader{
+    font-weight: 700;
+    float:left;
+    padding: 1rem 0 0 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom:1rem;
+}
+.logInBtn{
+    width:100%;
+    font-weight:700;
+    font-size: 1.1rem;
+    padding:1rem 2rem 1rem 2rem;
+    background-color: #1e73e9;
+    color:white;
+    border:none;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    margin-top:2rem;
+}
+.logInBtn:hover{
+    background-color: black;
+}
+.loginForm{
+    margin-top:4rem;
+    padding: 0 3rem 0 3rem;
+}
+.loginEmail{
+    display: block;
+    width:100%;
+    height:2rem;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom:2rem;
+}
+input::placeholder{
+    font-size:1rem;
+    color:rgb(182, 182, 182);
+    font-weight:700;
+}
+.loginPassword{
+    display: block;
+    width:100%;
+    height:2rem;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.loginOtherwiseSection{
+    font-size: 1rem;
+    font-weight:700;
+    color:grey;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+.loginOptionsBtnsSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+.loginOption{
+    border: 1px solid rgb(182, 182, 182);
+    padding:0.6rem 1rem;
+    cursor: pointer;
+}
+.loginOption:hover{
+    border: 1px solid #1e73e9;
+}
+.registerSection{
+    font-size: 1rem;
+    font-weight:700;
+    color:rgb(128, 127, 127);
+}
+.registerLink{
+    color: #1e73e9;
+    cursor: pointer;
+}
+input:focus{
+    outline:none;
+    border: none;
+    border-bottom: 1px solid #1e73e9;
+
+}

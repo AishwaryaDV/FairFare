@@ -1,5 +1,5 @@
 .fairFareHomePageAnimation{
-    padding: 7rem 0.5rem 0.5rem 0;
+    padding: 5rem 0.5rem 0.5rem 0;
 
 }
 .logoSection{
@@ -16,31 +16,29 @@
     line-height: 1.5rem;
 }
 .logInBtn{
-    height:3rem;
     width:auto;
     font-weight:700;
-    font-size: 1rem;
-    padding:0 2rem 0 2rem;
+    font-size: 1.1rem;
+    padding:1rem 2rem 1rem 2rem;
     background-color: #1e73e9;
     color:white;
     border:none;
     cursor: pointer;
-    border-radius: 5%;
+    text-decoration: none;
 }
 .logInBtn:hover{
     background-color: black;
 }
 .registerBtn{
-    height:3rem;
     width:auto;
     font-weight:700;
-    font-size: 1rem;
-    padding:0 2rem 0 2rem;
+    font-size: 1.1rem;
+    padding:1rem 2rem 1rem 2rem;
     background-color: #1e73e9;
     color:white;
     border:none;
     cursor: pointer;
-    border-radius: 5%;
+    text-decoration: none;
 }
 .registerBtn:hover{
     background-color: black;
