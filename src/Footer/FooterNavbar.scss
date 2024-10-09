@@ -1,0 +1,22 @@
+.footerNavbarSection{
+    height:5rem;
+    width: 100%;
+    background-color: grey;
+    position: relative;
+    position: fixed;
+    bottom:0;
+}
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navbarOption{
+    border: 1px solid black;
+    height: 100%;
+    padding:1rem 0.5rem 1rem 0.5rem;
+    font-weight: 700;
+}
+.addTrip {
+
+}

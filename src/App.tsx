@@ -3,6 +3,7 @@ import Landing from "./Landing/Landing";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './Login/Login';
 import Signup from './Signup/Signup';
+import Home from './Home/Home';
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
           <Route path="/" element={<Landing/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/signup" element={<Signup/>} />
+          <Route path="/home" element={<Home/>} />
         </Routes>
       </Router>
     </div>
